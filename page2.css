@@ -1,0 +1,72 @@
+.divCadastro {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.borda{
+    border: 1px solid black;
+    background-color: lightslategrey;
+}
+.titulo {
+    background-color: rgb(21, 99, 42);
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.botao {
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+    
+
+}
+
+.legenda1,
+.legenda2,
+.legenda3,
+.legenda4,
+.legenda5,
+.legenda6,
+.legenda7 {
+    color: rgb(8, 8, 8);
+}
+
+.valor,
+.valor1,
+.valor2,
+.valor3,
+.valor4,
+.valor5,
+.valor6,
+.valor7 {
+    background-color: rgb(124, 204, 135);
+    height: 20px;
+    color: black;
+    font-family: cursive;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-family: 1000;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.botao:hover{
+    background-color: black;
+    color: darkcyan;
+    transition: 3s;
+}
+
+body{
+    background-image: url( 10610530.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+   
+}
+
